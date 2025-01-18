@@ -47,12 +47,11 @@ def merge_sort(arr):
 
 
 
-
+# Функція сортування.
 def timsort(arr):
     """ 
-    Функція сортування.
-    `sorted` - вбудований метод python,
-    використовує гібридний вбудований метод Timsort
+    Використовує `sorted`,
+    sorted - використовує гібридний вбудований метод Timsort
     """
     return sorted(arr) 
 
